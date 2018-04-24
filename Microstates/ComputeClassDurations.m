@@ -28,5 +28,4 @@ function classDurations = ComputeClassDurations(labels, sample_ind, nrClasses)
     end
     
     classDurations(isnan(classDurations)) = 0;
-
 end
