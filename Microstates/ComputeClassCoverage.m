@@ -1,5 +1,4 @@
 function classCoverage = ComputeClassCoverage(labels,nrClasses)
-
     % returns the percent of time covered by each class
 
     classCoverage = zeros(1,nrClasses);
@@ -10,5 +9,4 @@ function classCoverage = ComputeClassCoverage(labels,nrClasses)
         classCoverage(c) = sum(labels == c);
     end
     classCoverage = classCoverage / nrSamples * 100;
-    
 end
